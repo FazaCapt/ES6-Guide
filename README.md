@@ -47,3 +47,4 @@ A transpiler reads code written in one language and produces the equivalent code
 - setting staart in script untuk running di package.json
 - Kesimpulan: 
     - untuk tidak perlu run berkali-kali, jadi kalo mau running cukup sekali
+    - github repo ('https://github.com/15Dkatz/es6-tutorial');
