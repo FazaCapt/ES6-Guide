@@ -5,12 +5,12 @@
 // var a = 'Hello';
 // console.log(a);
 
-let a = 'Hello';
+// let a = 'Hello';
 // console.log(a);
 
 // === dengan menggunakan let maka variabel yang diambil hanya dalam scope tanda kurung kurawal saja
 {
-    let a = 'goodbye';
+    // let a = 'goodbye';
     // console.log('a inside scope', a);
 }
 
@@ -34,3 +34,15 @@ array.push(4);
 
 // === Ini akan salah
 // array = [3]
+
+// ==================== Template literals/string ==========================
+
+var a = 'Hello';
+var b = 'World';
+var c = a + ' ' + b;
+
+// console.log(c);
+
+// === Ini bagian template string
+let d = `Hello ${b}`;
+// console.log(d);
