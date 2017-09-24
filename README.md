@@ -32,3 +32,18 @@ A transpiler reads code written in one language and produces the equivalent code
 - Kesimpulan setting:
     - Semua file akan menjadi satu di bundle.js
     - index.js tidak akan berubah bila tidak di run kembali
+
+### Webpack-ing babel
+
+- instal npm :
+    - babel-core 'https://github.com/babel/babel/tree/master/packages/babel-core'
+    - babel-loader 'https://github.com/babel/babel-loader'
+    - webpack-dev-server 'https://webpack.js.org/configuration/dev-server/#devserver' , 'https://github.com/webpack/webpack-dev-server'
+    - babel-preset-es2015
+    - babel-polyfill 'https://babeljs.io/docs/usage/polyfill/', 'https://remysharp.com/2010/10/08/what-is-a-polyfill'
+    --save-dev
+- setting up module and devserver di file webpack.config.js
+- setting up babel presets di package.json
+- setting staart in script untuk running di package.json
+- Kesimpulan: 
+    - untuk tidak perlu run berkali-kali, jadi kalo mau running cukup sekali

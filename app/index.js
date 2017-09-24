@@ -1,1 +1,1 @@
-console.log("Hello World! (From Webpack)");
+console.log("Hello World! (From Webpack) with webpack-dev-server");
