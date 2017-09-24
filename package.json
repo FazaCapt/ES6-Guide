@@ -1,0 +1,22 @@
+{
+  "name": "es6-Guide",
+  "version": "1.0.0",
+  "description": "Catatan Tentang Javascript ES6",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FazaCapt/ES6-Guide.git"
+  },
+  "author": "Faza Fahamsyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FazaCapt/ES6-Guide/issues"
+  },
+  "homepage": "https://github.com/FazaCapt/ES6-Guide#readme",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
+}
