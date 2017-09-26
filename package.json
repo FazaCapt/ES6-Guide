@@ -7,9 +7,6 @@
     "build": "webpack",
     "start" : "webpack-dev-server"
   },
-  "babel": {
-    "presets" : ["es2015"]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FazaCapt/ES6-Guide.git"
