@@ -17,19 +17,40 @@
 // class hobbit { name, height, 
     //              greet(){"Hello! i'm <My name> from the shire!"}}
 
+// ================ Setting up an ES6 class ==============
 
-class Entity {
-    constructor(name, height) {
-        this.name = name,
-        this.height = height
-    }
+// class Entity {
+//     constructor(name, height) {
+//         this.name = name,
+//         this.height = height
+//     }
 
-    greet(){
-        console.log(`Hi! i'm ${this.name}! i live in middle earth`);
-    }
-}
+//     greet(){
+//         console.log(`Hi! i'm ${this.name}! i live in middle earth`);
+//     }
+// }
 
-let Faza = new Entity("Faza", 75);
-Faza.greet();
+// let Faza = new Entity("Faza", 75);
+// Faza.greet();
 
 // Jangan lupa ini di localhost: 3000
+
+
+// ===================== Inheritance in ES6 Classes =====================
+
+import Entity from './entity';
+
+class Hobbit extends Entity {
+    constructor(name, height){
+        super(name, height);
+    }
+
+    // Bisa juga dibuat function disini
+    //  greet(){
+    //     console.log(`Hi! i'm ${this.name}! i live in middle earth`);
+    // }
+}
+
+let Frodo = new Hobbit("Frodo Baggins", 4.5);
+console.log(Frodo);
+Frodo.greet();
