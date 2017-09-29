@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+// https://openweathermap.org/current
+// https://home.openweathermap.org/api_keys
 const api_key = '526f3bdf694a57da1de2bbefe4692432';
 
 class App extends Component {
